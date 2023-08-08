@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaurya Shukla</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&amp;family=Montserrat&amp;family=Sacramento&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container grid-container gradient-background">
+        <div class="container flex-container" id="navbar">
+        <a class="nav-link">Home</a>
+        <a class="nav-link" href="#about">About Me</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link">Projects</a>
+        <a class="nav-link">Contact Me</a>
+        <a class="nav-link" href="./resume.html">Resume</a>
+    </div>
+        <h1 id="hi" class="grid-items">Hi, I'm Shaurya</h1>
+        <h2 id="hello" class="grid-items">An aspiring web developer <br/>and entrepreneur</h2>
+    </div>
+    <div class="container" id="about">
+        <h2 style="display: flex; justify-content: center; font-family: 'Merriweather', serif; font-weight: bolder;">Who am I?</h2>
+        <div class="grid-container" id="about-grid">
+            <img src="./Shaurya Shukla.png" alt="An image of me (Shaurya Shukla)">
+            <p id="about-text">I am a 14 year old living in the UK. I'm a freelance web developer who's passionate about delivering only the best websites to clients. With a background in maths and physics, I've used these transferrable skills alongside my logical thinking to start building websites. I look forward to working with all of you!</p>
+            <div></div>
+            <a href="./resume.html"><button id="resume">My Resume</button></a>
+        </div>
+    </div>  
+    <div class="container" id="skills">
+        <h2 style="display: flex; justify-content: center; font-family: 'Merriweather', serif; font-weight: bolder;">My Skills</h2>
+        <div class="flex-container skills-container">
+            <div class="skill-item">
+                <p style="margin: 12px 0px;">HTML</p>
+                <div class="progress-bar">
+                    <div class="green-progress" id="eighty">80%</div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p style="margin: 12px 0px;">CSS</p>
+                <div class="progress-bar">
+                    <div class="green-progress" id="sixty">60%</div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-container skills-container">
+            <div class="skill-item">
+                <p style="margin: 12px 0px;">JavaScript</p>
+                <div class="progress-bar" style="padding-left: 10px;">
+                    <div class="green-progress" id="zero">0%</div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p style="margin: 12px 0px;">Python</p>
+                <div class="progress-bar">
+                    <div class="green-progress" id="forty">40%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="projects">
+        <h2 style="display: flex; justify-content: center; font-family: 'Merriweather', serif; font-weight: bolder;">My Projects</h2>
+        <div class="grid-container" id="projects-grid">
+            <a href="./tindog.html" style="width: 100%"><img src="./TinDog.PNG" alt="TinDog website" style="width: 100%"></a>
+            <div>
+                <h3 style="font-family: 'Merriweather', serif; font-weight: bold;">TinDog Project</h2>
+                <p style="width: 500px;">A website where dogs can meet other dogs! This was designed using Bootstrap - a CSS framework that allows you to build modern, highly-responsive, mobile-first websites.</p>
+            </div>
+            <a href="./flex-pricing.html" style="width: 100%"><img src="./flex-pricing.PNG" alt="Flexbox pricing website" style="width: 100%"></a>
+            <div>
+                <h3 style="font-family: 'Merriweather', serif; font-weight: bold;">Flexbox Pricing Table Project</h2>
+                <p style="width: 500px;">A website built to mimic the look of a typical pricing table you would see on a website. Built using Flexbox.</p>
+            </div>
+        </div>
+        <div class="flex-container button">
+            <a href="#"><button id="more-projects">More projects</button></a>
+        </div>
+    </div>  
+</body>
+</html>

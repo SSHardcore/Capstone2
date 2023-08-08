@@ -1,0 +1,191 @@
+.gradient-background {
+    background: linear-gradient(300deg, #E3C442,#8A2BE3,#E336CF);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    height: 100vh;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+body {
+    font-family: serif;
+    margin: auto;
+}
+
+#navbar {
+    height: 50px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.nav-link {
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    font-weight: calc(auto+100);
+}
+
+#hi {
+    font-size: 120px;
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+}
+
+#hello {
+    font-size: 40px;
+    font-weight: light;
+}
+
+.nav-link:hover {
+    color: black;
+    background-color: white;
+}
+
+.grid-container {
+    display: grid;
+}
+
+.grid-items {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+.container {
+    width: 100vw;
+}
+
+* {
+    padding: 0;
+}
+
+#about {
+    background: linear-gradient(#E336CF,#E3C442);
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#about img {
+    height: 300px;
+    width: 225px;
+    margin-left: 400px;
+    margin-top: 25px;
+}
+
+#about-text {
+    width: 300px;
+    margin-right: 350px;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+#about-grid {
+    gap: 20px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 2fr 1fr;
+}
+
+#skills {
+    background: linear-gradient(#E3C442,#8A2BE3);
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#resume {
+    height: fit-content;
+    width: 150px;
+    padding: 15px;
+    float: left;
+}
+
+.skills-container {
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill-item {
+    height: 108px;
+    width: 400px;
+    padding: 10px 20px;
+    background-color: white;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    width: 380px;
+    background-color: grey;
+    padding: 0px;
+    padding-right: 20px;
+}
+
+.green-progress {
+    background-color: rgb(0, 212, 0);
+    padding-left: 10px;
+}
+
+#eighty {
+    width: 310px;
+}
+
+#sixty {
+    width: 230px;
+}
+
+#zero {
+    width: 0;
+    padding-left: 0;
+}
+
+#forty {
+    width: 150px;
+}
+
+#projects {
+    background: linear-gradient(#8A2BE3,#E336CF);
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#projects-grid {
+    gap: 20px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    text-align: justify;
+}
+
+#more-projects {
+    margin-top: 20px;
+    height: fit-content;
+    width: 150px;
+    padding: 15px;
+}
+
+.button {
+    justify-content: center;
+}
